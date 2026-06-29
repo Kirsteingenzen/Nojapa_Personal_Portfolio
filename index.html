@@ -362,9 +362,62 @@
   </div>
 </section>
 
-<!-- SERVICES omitted for brevity -->
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-max">
+    <div class="section-header">
+      <div class="section-eyebrow">Services</div>
+      <h2 class="section-title">What I Do.<br><em>Services I Offer.</em></h2>
+    </div>
 
-<!-- PIPELINE omitted for brevity -->
+    <div class="services-grid" style="display:grid; grid-template-columns: repeat(3,1fr); gap:24px;">
+      <div class="service-card" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div class="service-title" style="font-family:'Cormorant Garamond', serif; font-size:20px; color:var(--white); margin-bottom:10px;">Automation Setup</div>
+        <p class="service-desc" style="color:var(--muted);">Design and deploy GoHighLevel automations, triggers, and sequences to route leads and convert them efficiently.</p>
+      </div>
+
+      <div class="service-card" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div class="service-title" style="font-family:'Cormorant Garamond', serif; font-size:20px; color:var(--white); margin-bottom:10px;">Funnel & Landing Pages</div>
+        <p class="service-desc" style="color:var(--muted);">High-converting funnel design, landing pages, and A/B testing to improve lead capture and conversion.</p>
+      </div>
+
+      <div class="service-card" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div class="service-title" style="font-family:'Cormorant Garamond', serif; font-size:20px; color:var(--white); margin-bottom:10px;">Training & Support</div>
+        <p class="service-desc" style="color:var(--muted);">Ongoing support, onboarding, and documentation so your team can manage workflows without friction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PIPELINE -->
+<section id="pipeline">
+  <div class="section-max">
+    <div class="section-header">
+      <div class="section-eyebrow">Pipeline</div>
+      <h2 class="section-title">Lead Pipeline.<br><em>From Capture To Close.</em></h2>
+    </div>
+
+    <div class="pipeline-grid" style="display:grid; grid-template-columns: repeat(3,1fr); gap:24px;">
+      <div class="pipeline-step" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div style="font-weight:600; color:var(--gold); margin-bottom:8px;">01 — Capture</div>
+        <div style="color:var(--white); font-family:'Cormorant Garamond', serif; font-size:18px; margin-bottom:8px;">Lead Capture</div>
+        <p style="color:var(--muted);">Landing pages, forms, and integrations to collect high-quality leads.</p>
+      </div>
+
+      <div class="pipeline-step" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div style="font-weight:600; color:var(--gold); margin-bottom:8px;">02 — Nurture</div>
+        <div style="color:var(--white); font-family:'Cormorant Garamond', serif; font-size:18px; margin-bottom:8px;">Automated Nurture</div>
+        <p style="color:var(--muted);">Sequences, SMS, and email workflows to warm prospects and qualify leads automatically.</p>
+      </div>
+
+      <div class="pipeline-step" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div style="font-weight:600; color:var(--gold); margin-bottom:8px;">03 — Convert</div>
+        <div style="color:var(--white); font-family:'Cormorant Garamond', serif; font-size:18px; margin-bottom:8px;">Conversion</div>
+        <p style="color:var(--muted);">Pipeline stages, task automations, and reporting to drive deals to close.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- PROJECTS -->
 <section id="projects">
@@ -485,7 +538,50 @@
   </div>
 </section>
 
-<!-- TOOLS -> CONTACT -> FOOTER omitted for brevity -> keep original content when ready -->
+<!-- TOOLS -->
+<section id="tools">
+  <div class="section-max">
+    <div class="section-header">
+      <div class="section-eyebrow">Tools</div>
+      <h2 class="section-title">Tools & Integrations.<br><em>What I Use.</em></h2>
+    </div>
+
+    <div class="tools-grid" style="display:flex; gap:12px; flex-wrap:wrap; align-items:center;">
+      <span class="chip">GoHighLevel</span>
+      <span class="chip">Zapier</span>
+      <span class="chip">Make</span>
+      <span class="chip">Stripe</span>
+      <span class="chip">Google Sheets</span>
+      <span class="chip">Vercel</span>
+      <span class="chip">GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-max">
+    <div class="section-header">
+      <div class="section-eyebrow">Contact</div>
+      <h2 class="section-title">Let's Talk.<br><em>Start Your Project.</em></h2>
+    </div>
+
+    <div class="contact-layout" style="display:grid; grid-template-columns: 1fr 420px; gap:32px; align-items:start;">
+      <form class="contact-form" style="display:flex; flex-direction:column; gap:12px;" action="mailto:hello@noja.pa" method="post" enctype="text/plain">
+        <input name="name" placeholder="Your Name" style="padding:12px; border:1px solid var(--border); background:transparent; color:var(--text);" required>
+        <input name="email" placeholder="Email" style="padding:12px; border:1px solid var(--border); background:transparent; color:var(--text);" required>
+        <textarea name="message" placeholder="Tell me about your project" rows="6" style="padding:12px; border:1px solid var(--border); background:transparent; color:var(--text);" required></textarea>
+        <button type="submit" class="btn-primary" style="width:fit-content;">Send Message</button>
+      </form>
+
+      <div class="contact-info" style="background:var(--card); border:1px solid var(--border); padding:28px;">
+        <div style="font-weight:600; color:var(--gold); margin-bottom:8px;">Get In Touch</div>
+        <p style="color:var(--muted); margin-bottom:8px;">Email: <a href="mailto:hello@noja.pa" style="color:var(--white); text-decoration:none;">hello@noja.pa</a></p>
+        <p style="color:var(--muted);">Based in the Philippines — Available for remote work worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <footer>
   <div class="footer-logo">Kirstein · Genzen Nojapa</div>
   <div class="footer-copy">© 2025 · GoHighLevel Automation Specialist · Philippines</div>
